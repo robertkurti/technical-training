@@ -10,3 +10,6 @@ class Task(models.Model):
     worker_id = fields.Many2one('res.partner')
     start_time = fields.Datetime()
     end_time = fields.Datetime()
+    
+class Task(models.Model):
+    _inherit = 'coopplanning.task'
