@@ -1,0 +1,16 @@
+<odoo>
+    <record model="ir.ui.view" id="session_view_tree">
+        <field name="name">Session</field>
+        <field name="model">openacademy.session</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="description" />
+                <field name="seats" widget="progressbar" />
+                <field name="duration" />
+                <field name="attendee_ids" />
+            </tree>
+        </field>
+    </record>
+</odoo>
+

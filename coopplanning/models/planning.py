@@ -70,4 +70,4 @@ class TaskTemplate(models.Model):
             })
             
 class Task_inherit(models.Model):
-    _inherit = 'coopplanning.task'
+    _inherit = 'coopplanning.task.type'

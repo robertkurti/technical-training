@@ -11,5 +11,3 @@ class Task(models.Model):
     start_time = fields.Datetime()
     end_time = fields.Datetime()
     
-class Task(models.Model):
-    _inherit = 'coopplanning.task'
